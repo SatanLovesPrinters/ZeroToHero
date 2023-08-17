@@ -1,3 +1,10 @@
 08/15/2023 5:21pm Creation
 - Notes: 
 - Struggled with first repository. Restarting & attempting later on. 
+
+08/16/2023 4:05pm 
+- New repo is working
+- Identified System Env Variables as possible road block
+- Issue #1 created in GitHub.
+-- Idea is to review the full need of %AppData% usage vs having a root folder C:\rootGit
+
