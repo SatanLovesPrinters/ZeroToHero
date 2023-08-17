@@ -2,9 +2,49 @@
 - Notes: 
 - Struggled with first repository. Restarting & attempting later on. 
 
-08/16/2023 4:05pm 
+08/16/2023 - 4:05pm 
 - New repo is working
 - Identified System Env Variables as possible road block
 - Issue #1 created in GitHub.
 -- Idea is to review the full need of %AppData% usage vs having a root folder C:\rootGit
+
+Syncing Step-by-Step:
+
+If someone adds to the WebClient
+- Discard your current changes or merge changes
+- git pull
+If git pull does not work due to other files being staged:
+- Clear your staged files with:
+- Git restore . 
+Git diff should then show no changes in place
+- git status
+- git checkout -- .
+To confirm header once more
+- git status
+- git pull 
+
+--- If a change occurs --- Think about the three stages.
+
+08/16/2023 - Key ideas to work on:
+- origin vs main 
+-- Is origin always the web client vs main always being local? 
+-- Git Graph allows you to copy commit hashes & merge specific editions w/ select branches.
+----Git Graph ("Look at this file" > at this "commit" under this "time frame")
+----You can mark commits as reviewed > enabling more project orchestration. 
+-- Git Graph & Git History correlate
+--- Git History allows you to View / Compare / Drill down into other commits/version history. 
+----Gives soft & hard reset - Tag features & Commit manipulation.
+
+GitLens = Most Common/Advanced Integration Extension App
+Apart of GitKraken - All public repo's are free with GitLens / Private is subscription based.
+>> GitLens gives a large overview & project oversight for Source Control:
+- Commits > Commit Details > File History > Branches / Remotes / Stashes > Worktrees > Tags
+- Search & Compare (Compare SHA/Message/Author/etc.)
+- Visualization of commits overtime (merging GitGraph & Git History)
+- Blame Information - "Who made what & where @ what time" A.K.A. File Annotation
+- View > Appearance > Panel > GitLens has its own spot. ("Mildly gimmicky")
+
+Important Links:
+https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository
+https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git
 
