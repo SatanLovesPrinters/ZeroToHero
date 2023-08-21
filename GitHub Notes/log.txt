@@ -48,3 +48,13 @@ Important Links:
 https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository
 https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git
 
+
+08/20/2023: Plan
+- Fork a repository > Switch to a previous version & merge back.
+- Complete markdown file videos & applications
+- - Lists / Nested functions (Lists & columns)
+- Notes : GitHub
+- Notes : PowerShell 
+- Notes : Challenges
+- Notes : General
+- Notes : Chaos
