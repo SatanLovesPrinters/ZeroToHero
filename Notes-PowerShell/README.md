@@ -4,9 +4,11 @@
 ### Summarized Information
 ---
 <details>
-<summary>
-1.  Noun-Verb / Basics
-2.  Functions / Scripts
-3.  Automation/ Orchestration
-</summary>
+<summary> 1.  Noun-Verb / Basics </summary>
+
+<summary> 2.  Functions / Scripts </summary>
+<summary> 3.  Automation/ Orchestration </summary>
+
+</details>
+</details>
 </details>
