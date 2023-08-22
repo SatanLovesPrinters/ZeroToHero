@@ -1,4 +1,8 @@
-# Page Title 
+# Markdown References
+
+https://stackoverflow.com/questions/19950648/how-to-write-lists-inside-a-markdown-table
+
+https://www.markdownguide.org/extended-syntax/
 
 ## Page Sub-Title
 ### Document Information Field A
@@ -125,3 +129,4 @@
 ---
 
 ### Lists by <//tables> = v2.0
+## https://stackoverflow.com/questions/19950648/how-to-write-lists-inside-a-markdown-table
