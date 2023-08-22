@@ -1,19 +1,132 @@
-# ZeroToHero
-PowerShell &amp; GIT Resources
-## Learning Documents
+# Markdown References
 
-> https://www.linkedin.com/learning/?u=84365546
+https://stackoverflow.com/questions/19950648/how-to-write-lists-inside-a-markdown-table
 
-> https://www.markdownguide.org/basic-syntax/
+https://www.markdownguide.org/extended-syntax/
 
-## The Basic Document/File/Push:
+## Page Sub-Title
+### Document Information Field A
+- Topic A
+- Topic B
+- Topic C
+- Topic D
+- Topic E
 
-1. Staging
-        -  Git Add .
-        -  Git Add example.txt
 
-2. Commit a file
-        - Git commit -m "Message goes here"
+### Document Information Field B
+### Lists by <//summary> & <//details> = v1.0
 
-3. Git Push
-        - Git push
+---
+
+<details><summary>Topic A</summary>
+
+1. Placeholder-1
+
+2. Placeholder-2
+
+3. Placeholder-3
+
+---
+
+</details>
+
+<details><summary>Topic B</summary>
+
+1. Placeholder-1
+
+2. Placeholder-2
+
+3. Placeholder-3
+
+---
+
+</details>
+
+<details><summary>Topic C</summary>
+
+1. Placeholder-1
+
+2. Placeholder-2
+
+3. Placeholder-3
+
+---
+
+</details>
+
+<details><summary>Topic D</summary>
+
+1. Placeholder-1
+
+2. Placeholder-2
+
+3. Placeholder-3
+
+---
+
+</details>
+
+<details><summary>Topic E</summary>
+
+1. Placeholder-1
+
+2. Placeholder-2
+
+3. Placeholder-3
+
+---
+
+</details>
+
+<details><summary>Topic F</summary>
+
+1. Placeholder-1
+
+2. Placeholder-2
+
+3. Placeholder-3
+
+---
+
+</details>
+
+<details><summary>Topic G</summary>
+
+1. Placeholder-1
+
+2. Placeholder-2
+
+3. Placeholder-3
+
+---
+
+</details>
+
+<details><summary>Topic H</summary>
+
+1. Placeholder-1
+
+2. Placeholder-2
+
+3. Placeholder-3
+
+---
+
+</details>
+
+<details><summary>Topic I</summary>
+
+1. Placeholder-1
+
+2. Placeholder-2
+
+3. Placeholder-3
+
+---
+
+</details>
+
+---
+
+### Lists by <//tables> = v2.0
+## https://stackoverflow.com/questions/19950648/how-to-write-lists-inside-a-markdown-table
