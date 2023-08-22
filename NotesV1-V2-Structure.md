@@ -4,6 +4,8 @@ https://stackoverflow.com/questions/19950648/how-to-write-lists-inside-a-markdow
 
 https://www.markdownguide.org/extended-syntax/
 
+HowTo: Merge https://www.atlassian.com/git/tutorials/using-branches/git-merge
+
 ## Page Sub-Title
 ### Document Information Field A
 - Topic A
