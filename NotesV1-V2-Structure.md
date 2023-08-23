@@ -130,3 +130,18 @@ https://www.markdownguide.org/extended-syntax/
 
 ### Lists by <//tables> = v2.0
 ## https://stackoverflow.com/questions/19950648/how-to-write-lists-inside-a-markdown-table
+
+| Table Example     | Data A    | Data B    |
+| ------------------|:----------:|:----------:|
+| Data Type 1       | filler | string |
+| Data Type 2       | filler | string |
+| Data Type 3ab     | filler | string-Random|
+
+| Table Example     | Data A    | Data B    |
+| ------------------|:----------:|:----------:|
+| Data Type 1       | filler | string |
+| Data Type 2       | filler | string |
+| Data Type 4       | filler | string-Random|
+| Data Type 5       | filler | string |
+| Data Type 6       | filler | string |
+| Data Type 7       | filler | string-Random-2|
