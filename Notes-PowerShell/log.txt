@@ -1,3 +1,0 @@
-08/21/2023
-- Creation of Notes-PowerShell
-- Importing LinkedIn Learning documents (01_LIL.md)
