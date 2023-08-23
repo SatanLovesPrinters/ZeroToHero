@@ -2,11 +2,6 @@
 ## Learning Resources
 
 ### Summarized Information
----
-<details>
-<summary>
-1.  - 
-2.  - 
-3.  - 
-</summary>
-</details>
+| References    | Info - A    | Info - B   |
+|:------------------:|:----------:|:----------:|
+| LinkedIn Learning-Example A  | Link:  | References - PowerShell/Azure Administration |
