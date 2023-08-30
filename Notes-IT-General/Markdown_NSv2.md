@@ -1,10 +1,12 @@
 # Markdown References
 
-https://stackoverflow.com/questions/19950648/how-to-write-lists-inside-a-markdown-table
+[Learning Markdown](https://www.linkedin.com/learning/learning-markdown/)
 
-https://www.markdownguide.org/extended-syntax/
+[Extended Syntax](https://www.markdownguide.org/extended-syntax/)
 
-https://www.linkedin.com/learning/learning-markdown/
+[Writing Lists Inside Markdown Tables](https://stackoverflow.com/questions/19950648/how-to-write-lists-inside-a-markdown-table)
+
+
 
 ## LinkedIn Learning Course-1
 ### Topics
@@ -32,19 +34,11 @@ https://www.linkedin.com/learning/learning-markdown/
     + [Link to Markdown Site](https://www.markdownguide.org/extended-syntax/)
         > ^ \[Link to Markdown Site](https://www.markdownguide.org/extended-syntax/)
 - Reference Links
-    + Images:
-        > Inline Method : 
-        > ![Moose](https://i.imgur.com/ogTUyOm.png)
-    + ^ \![Moose]\(Link to Imgur)
-
-        > Reference Method : Set Reference & then call at end of page or in a references section. 
-        > \![MooseRef]\(https://i.imgur.com/ogTUyOm.png) Followed by:
-
-        > \![MooseRef]\[1]:https://i.imgur.com/ogTUyOm.png "Photo of Moose"
-
-[1]:https://i.imgur.com/ogTUyOm.png "Photo of Moose"
-
----
+    + Images - Inline Method & Reference Method
+    + Inline Method: \![Moose]\(https://i.imgur.com/ogTUyOm.png)
+        >![Moose](https://i.imgur.com/ogTUyOm.png)
+    + Reference Method: \[ID]: https://i.imgur.com/ogTUyOm.png "Moose"
+    + [Further Reading on Syntax](https://daringfireball.net/projects/markdown/syntax#link)
 
 </details>
 
@@ -76,3 +70,12 @@ https://www.linkedin.com/learning/learning-markdown/
 | Data Type 5       | filler | string |
 | Data Type 6       | filler | string |
 | Data Type 7       | filler | string-Random-2|
+
+---
+# References
+
+[1]:(https://www.linkedin.com/learning/learning-markdown/) "Learning Markdown"
+
+[2]:(https://www.markdownguide.org/extended-syntax/) "Extended Syntax"
+
+[3]:(https://stackoverflow.com/questions/19950648/how-to-write-lists-inside-a-markdown-table) "Writing Lists Inside Markdown Tables"
