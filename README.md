@@ -4,129 +4,13 @@ https://stackoverflow.com/questions/19950648/how-to-write-lists-inside-a-markdow
 
 https://www.markdownguide.org/extended-syntax/
 
-## Page Sub-Title
-### Document Information Field A
-- Topic A
-- Topic B
-- Topic C
-- Topic D
-- Topic E
+## Lists by <//tables> = v2.0
 
+### https://stackoverflow.com/questions/19950648/how-to-write-lists-inside-a-markdown-table
 
-### Document Information Field B
-### Lists by <//summary> & <//details> = v1.0
+| Folder     | Information Type    | References   |
+| ------------------|:----------:|:----------:|
+| Notes-Github       | GitHub Intro/Intermediate/Advanced Documentation | GitHub / Git / VS Code / Version Control |
+| Notes-IT-General      | Help Desk & IT Administration / Windows 10 | MS Docs / Office365 |
+| Notes-PowerShell   | Azure Administration / Exchange Online / Server Admin / User Support | MS Docs / Office 365 / Remote Support |
 
----
-
-<details><summary>Topic A</summary>
-
-1. Placeholder-1
-
-2. Placeholder-2
-
-3. Placeholder-3
-
----
-
-</details>
-
-<details><summary>Topic B</summary>
-
-1. Placeholder-1
-
-2. Placeholder-2
-
-3. Placeholder-3
-
----
-
-</details>
-
-<details><summary>Topic C</summary>
-
-1. Placeholder-1
-
-2. Placeholder-2
-
-3. Placeholder-3
-
----
-
-</details>
-
-<details><summary>Topic D</summary>
-
-1. Placeholder-1
-
-2. Placeholder-2
-
-3. Placeholder-3
-
----
-
-</details>
-
-<details><summary>Topic E</summary>
-
-1. Placeholder-1
-
-2. Placeholder-2
-
-3. Placeholder-3
-
----
-
-</details>
-
-<details><summary>Topic F</summary>
-
-1. Placeholder-1
-
-2. Placeholder-2
-
-3. Placeholder-3
-
----
-
-</details>
-
-<details><summary>Topic G</summary>
-
-1. Placeholder-1
-
-2. Placeholder-2
-
-3. Placeholder-3
-
----
-
-</details>
-
-<details><summary>Topic H</summary>
-
-1. Placeholder-1
-
-2. Placeholder-2
-
-3. Placeholder-3
-
----
-
-</details>
-
-<details><summary>Topic I</summary>
-
-1. Placeholder-1
-
-2. Placeholder-2
-
-3. Placeholder-3
-
----
-
-</details>
-
----
-
-### Lists by <//tables> = v2.0
-## https://stackoverflow.com/questions/19950648/how-to-write-lists-inside-a-markdown-table

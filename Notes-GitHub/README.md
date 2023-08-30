@@ -3,23 +3,20 @@
 
 ### Summarized Information
 
-<details>
-<summary>
-git init
-.gitignore
-git add
-git commit -m
-git status
-git branch
-HEAD
-git switch
-git checkout
-When do you switch?
-When do you checkout?
-DETACHED HEAD: Why so dramatic?
-git merge
-CONFLICT: How to fix merge conflicts?
-Git revert [commitID] > pull from: git log --oneline
-git rebase
-</summary>
-</details>
+
+| Git Commands    | Info - A    | Info - B   |
+|:------------------:|:----------:|:----------:|
+| git init          | x | x |
+| .gitignore        | x | x |
+| git commit -m     | x | x |
+| git status        | x | x |
+| git branch        | x | x |
+| HEAD              | x | x |
+| git switch        | x | x |
+| git checkout      | x | x |
+| When to switch?   | x | x |
+| When to checkout? | x | x |
+| git merge         | x | x |
+| CONFLICTS:        | x | x |
+| Git revert        | [commitID] > Pull from | Git log --oneline |
+| git rebase        | x | x |
