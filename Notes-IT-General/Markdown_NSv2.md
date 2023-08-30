@@ -6,7 +6,9 @@
 
 [Writing Lists Inside Markdown Tables](https://stackoverflow.com/questions/19950648/how-to-write-lists-inside-a-markdown-table)
 
+[Markdown Flavors](https://gist.github.com/vimtaai/99f8c89e7d3d02a362117284684baa0f)
 
+[Compare Flavors with Babelmark 3](https://babelmark.github.io/)
 
 ## LinkedIn Learning Course-1
 ### Topics
@@ -44,9 +46,12 @@
 
 <details><summary>Beyond Markdown</summary>
 
-* Placeholder-1
-* Placeholder-2
-* Placeholder-3
++ Git Flavored Markdown 
+- Working with Tables
+    + | First Header | Second Header | 3rd | 4th | 5th
+    + | -----|-----|-----|-----|-----|
+    + See: Markdown Table Generators 
++ Other Flavors
 
 ---
 
@@ -79,3 +84,5 @@
 [2]:(https://www.markdownguide.org/extended-syntax/) "Extended Syntax"
 
 [3]:(https://stackoverflow.com/questions/19950648/how-to-write-lists-inside-a-markdown-table) "Writing Lists Inside Markdown Tables"
+
+[4]:(https://fletcherpenney.net/multimarkdown/)
