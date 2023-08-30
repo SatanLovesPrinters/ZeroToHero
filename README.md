@@ -10,7 +10,8 @@ https://www.markdownguide.org/extended-syntax/
 
 | Folder     | Information Type    | References   |
 | ------------------|:----------:|:----------:|
+
+| 00_Wiki_Notes      | General Documentation | Structure / Layout of GitHub & Wiki & Pages |
 | Notes-Github       | GitHub Intro/Intermediate/Advanced Documentation | GitHub / Git / VS Code / Version Control |
 | Notes-IT-General      | Help Desk & IT Administration / Windows 10 | MS Docs / Office365 |
 | Notes-PowerShell   | Azure Administration / Exchange Online / Server Admin / User Support | MS Docs / Office 365 / Remote Support |
-| 00_Wiki_Notes      | General Documentation | Structure / Layout of GitHub & Wiki & Pages |
