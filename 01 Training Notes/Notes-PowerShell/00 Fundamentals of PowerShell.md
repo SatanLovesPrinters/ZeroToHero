@@ -1,13 +1,18 @@
-## PowerShell 7 Essential Training - 4
+## LinkedIn Learning 
 
-<details>
-<details>
-COURSE NAME: PowerShell 7 Essential Training	Key Section Information 
-Topic: Intro to PowerShell 7	Import-Module -ListAvailable
-Import-Module PSDiagnostics
-</details>
+| PowerShell 7 Essential Training & Intro to PowerShell 7  | Key Section Information |  Special notes   |
+|:------------------|:----------:|:----------:|
+| Data Type 1       | filler | string |
+| Data Type 2       | filler | string |
 
-(By default has Disable-PSTrace/Enable-PSTrace..+6 more)	Pipeline to Get-Module -module info
+
+| Commands Learned   | Specific Notes   | References   |
+| :------------------|:----------:|:----------:|
+| Import-Module -ListAvailable  -PSDiagnostics | Add a Pipeline Operator ( &#124; ) to export into next section | [Notes] | [Notes] |
+
+
+
+Disable-PSTrace/Enable-PSTrace..+6 more)  to Get-Module -module info
 You can actually modify & import only needed functions/cmdlets of modules.	Import-Module
 Get-Module
 	$module = Import-Module PSDiagnostics
@@ -143,58 +148,73 @@ CSV = Punctuation
 XML = Markup language / Tables of data	HTML = <table> <tr> <td>
 XML = Similar to HTML, but more broken down (<XML Version> <Tag1> <Subtag1>
 
-XML Data:
+### XML Data Step-by-Step
+```powershell
 $XMLPath = 'C:\Temp\XML.xml'
 $EmployeeRoster = [XML](Get-Content $XMLPath)
 $EmployeeRoster.roster.employee | Format-Table
 You can use
 $EmployeeRoster.SelectNodes("//name")	Writing to XML Configuration:
-$XMLPath = 'C:\Temp\XMLTest.XML"
+$XMLPath = 'C:\Temp\XMLTest.XML'
 $EmployeeRoster = [xml](Get-Content $XMLPath)
 $EmployeeRoster.roster.employee | Format-Table
 - When working with individual users, set them into a variable.
-$Bernie = $EmployeeRoster.roster.employee[7]
-- Check for Bernie with typing $Bernie
-To update this information:
-Bernie.jobdescription="Landscaping"
-To update xml file
-$EmployeeRoster.Save($XMLPath)
-XML File will now be updated after saving
-        - // is xpath syntax, where any tag related to name will pull
+$Bernie = $EmployeeRoster.roster.employee[7] // Check for Bernie with typing $Bernie
+Bernie.jobdescription="Landscaping" // To update this information:
+$EmployeeRoster.Save($XMLPath) 
+/**Save XML File (w/o doing will cause error) & xpath syntax, where any tag related to name will pull**/
 $EmployeeRoster.SelectSingleNode ("//employee[4]") 
-        - In XML, the first thing in a list is 1 compared to PowerShell where
-it starts at [0]
-You can then ADD or REMOVE XML Information. 
 
-XML Data / Advanced Information
+```
+- In XML - the listArray starts @ [1] 
+- PowerShell - listArray starts @ [0] 
+## XML Data / Advanced Information
+
 - Child Elements of each Primary Element
-- How to add a child element into their record:	JavaScript Object Notation - JSON Files & Formatted Data
-JSON or XML = Multiple data types, data and objects, and hierarchical structure.
+- How to add a child element into their record:	
+- "JavaScript Object Notation" = .JSON
+- JSON or XML = Multiple data types, data and objects, and hierarchical structure.
+- You can then ADD or REMOVE XML Information. 
 Test it: 
-- Get-Service | Export-CLIxml C:\Temp\xmlTest.xml
-- Get-Service | ConvertTo-Json | Out-File C:\Temp\jsonTest.json
-$XMLPath = 'C:\Temp\XMLTest.XML"
-$EmployeeRoster = [xml](Get-Content $XMLPath)	        - XML is normally MUCH larger than JSON
-$Bernie = $EmployeeRoster.roster.employee[7]	        - XML has more header information & tags to close/open each element.
-        - Add an element:	        - JSON has nesting elements, but XML has much machine level support
-$Bernie.AppendChild($EmployeeRoster.CreateElement("pe_1year"))	JSON = Smaller file, faster web transfer
+```powershell
+Get-Service | Export-CLIxml C:\Temp\xmlTest.xml
+Get-Service | ConvertTo-Json | Out-File C:\Temp\jsonTest.json
+$XMLPath = 'C:\Temp\XMLTest.XML'
+$EmployeeRoster = [xml](Get-Content $XMLPath)	
+$Bernie = $EmployeeRoster.roster.employee[7]	  
+$Bernie.AppendChild($EmployeeRoster.CreateElement("pe_1year"))	
 $Bernie.pe_1year = "7/18/2018 Exceeds"
-- Add a new record (CLONE METHOD)	XML = Better cmdlet support, more robust 
-$NewHire = $Bernie.Clone()
+$NewHire = $Bernie.Clone()  //Add a new record (CLONE METHOD)	
 $NewHire.Id/Name/JD/DateofHire/EmailAddress = 'value'
 $EmployeeRoster.Roster.AppendChild($NewHire)
 DO NOT FORGET: $EmployeeRoster.Save($XMLPath)
-Utilizing JSON 	Utilizing JSON
-Start the script with @"
+
+```   
+### XML vs JSON 
+XML: Better cmdlet support, more robust 
+XML: Normally larger file size than JSON   
+XML: More header information & tags to close/open each element
+JSON: Sits in between Get-Something | ConvertFrom-Json | Do-Something
+JSON: Smaller file, faster web transfer
+JSON: Nesting elements, but XML has much better machine level support (e.g) Web-Invoke of REST API
+
+```powershell
+Invoke-WebRequest -Method get -URI HTTPS://[siteinformation].com/api/posts/all 
+| Select-Object -ExpandProperty Content | ConvertFrom-Json | ft
+```
+
+### Utilizing JSON 
+```json
+Start the script with 
+@"
 [
  {
     "firstName":"Robert"
 }
 ]
 "@ | ConvertFrom-Json | FT
-Look at sample META DATA & Endpoint Structure
--JSON sits in between Get-Something | ConvertFrom-Json | Do-Something
-i.e. Web-Invoke of REST API
-        - Invoke-WebRequest -Method get -URI HTTPS://[siteinformation].com/api/posts/all 
-| Select-Object -ExpandProperty Content | ConvertFrom-Json | ft
+
+```
+
+
 
