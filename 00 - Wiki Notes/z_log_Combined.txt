@@ -123,3 +123,8 @@ https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-g
 - Notes : Challenges
 - Notes : General
 - Notes : Chaos
+
+09/14/2023: 
+- Split hierarchy by appropriate mapping
+- Standardize lists & table formats across structure 
+- 
