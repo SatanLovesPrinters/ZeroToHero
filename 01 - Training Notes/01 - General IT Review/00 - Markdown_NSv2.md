@@ -14,6 +14,11 @@
 ### Topics
 - Markdown Basics
 - Beyond Markdown
+- 7 Table Markdown 
+
+| 1 | 2 | 3  | 4 | 5 | 6 | 7 |
+| :----| :------- | :--- | :--- | :--- | :--- | :--- |
+| | | | | | |
 
 ### Detailed Information
 ---
