@@ -1,26 +1,20 @@
 
-
-<summary>
-MICROSOFT GRAPH:
-https://learn.microsoft.com/en-us/powershell/microsoftgraph/installation?view=graph-powershell-1.0 (INSTALL)
-https://learn.microsoft.com/en-us/powershell/microsoftgraph/get-started?view=graph-powershell-1.0 (GET STARTED)
+| [MICROSOFT GRAPH](https://learn.microsoft.com/en-us/powershell/microsoftgraph/installation?view=graph-powershell-1.0) (INSTALL) | [MG - Getting Started](https://learn.microsoft.com/en-us/powershell/microsoftgraph/get-started?view=graph-powershell-1.0) | [MG - Profiles](https://www.sharepointdiary.com/2022/04/office-365-find-last-login-date-using-powershell.html#ixzz893oyRdcZ)| < < MS Documents|
+|:------------------|:----------|:----------|:----------:|
 
 
-Creating Microsoft Graph Profiles: 
-https://www.sharepointdiary.com/2022/04/office-365-find-last-login-date-using-powershell.html#ixzz893oyRdcZ
-
-</summary>
-
-<summary>
+```PowerShell
 #Set the Graph Profile
 Select-MgProfile auditProfile
  
 #Properties to Retrieve
+
 $Properties = @(
     'Id','DisplayName','Mail','UserPrincipalName','UserType', 'AccountEnabled', 'SignInActivity'   
 )
  
 #Get All users along with the properties
+
 $AllUsers = Get-MgUser -All -Property $Properties | Select-Object $Properties
  
 $SigninLogs = @()
@@ -40,4 +34,5 @@ $SigninLogs
  
 #Export Data to CSV
 $SigninLogs | Export-Csv -Path "C:\Temp\SigninLogs.csv" -NoTypeInformation
-</summary>
+```
+
