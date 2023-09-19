@@ -145,11 +145,11 @@
 
 | Work-In-Progress| Project |
 | :----:| :------- |
-| &:negative_squared_cross_mark:; |[WireShark](https://wiki.wireshark.org/Home)|
-| &:negative_squared_cross_mark:; |[HomeLab Equipment](https://www.reddit.com/r/homelabsales/)|
-| :negative_squared_cross_mark: |[SpeedTest CLI Configuration](https://www.speedtest.net/apps/cli)|
-| :negative_squared_cross_mark: |[ZenUML - Documentation Review](https://zenuml.atlassian.net/wiki/spaces/Doc/overview)|
-| :negative_squared_cross_mark: |[ZenUML - Mermaid - GitHub Mapping Project](https://mermaid.js.org/syntax/zenuml.html)|
+| :x:|[WireShark](https://wiki.wireshark.org/Home)|
+| :x: |[HomeLab Equipment](https://www.reddit.com/r/homelabsales/)|
+| :x: |[SpeedTest CLI Configuration](https://www.speedtest.net/apps/cli)|
+| :heavy_check_mark: |[ZenUML - Documentation Review](https://zenuml.atlassian.net/wiki/spaces/Doc/overview)|
+| :heavy_check_mark: |[ZenUML - Mermaid - GitHub Mapping Project](https://mermaid.js.org/syntax/zenuml.html)|
 
 ### General List of Direct Install Applications (Also use Ninite)
 
