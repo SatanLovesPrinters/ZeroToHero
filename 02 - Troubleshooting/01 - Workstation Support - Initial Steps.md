@@ -43,27 +43,32 @@
 
 [Workstation Support - Networking - WiFi/NIC Troubleshooting](https://support.microsoft.com/en-us/windows/fix-wi-fi-connection-issues-in-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c)
 
-#### Workstation Support - Slow Performance - Application Issues - Windows Related Fixes
+#### General List of Commands
 ```powershell
 Start-ADSyncSyncCycle -PolicyType Delta #For Servers Post AD Changes
 Test-ComputerSecureChannel -verbose #For Workstations
 Get-Service | Where-Object {$_.Status -eq 'Stopped' -and $_.startType -eq 'Automatic'} | #Workstations & Servers
 manage-bde -status #Check Bitlocker Drive Encryption
 ```
-
+#### CMD / General Workstation Repair
 ```cmd
 sfc /scannow
 dism /Online /Cleanup-Image /Restorehealth
 chkdsk /f /r
 Del /q /f /s %TEMP%\*
-
+```
+#### CMD / Admin Control of Printers
+```cmd
 Rundll32 printui.dll,PrintUIEntry /il 
+```
+#### CMD / Repairing Time Sync Errors
+```cmd
+w32tm /config /manualpeerlist:time.windows.com,0x1 /syncfromflags:manual /reliable:yes /update
 
-- w32tm /config /manualpeerlist:time.windows.com,0x1 /syncfromflags:manual /reliable:yes /update
-- w32tm/resync
-- Time 00:00:00 AM/PM
-- tzutil /s "Eastern Standard Time"
-- net stop w32time && net start w32time && w32tm /resync
+w32tm/resync
+Time 00:00:00 AM/PM
+tzutil /s "Eastern Standard Time"
+net stop w32time && net start w32time && w32tm /resync
 ```
 
 ### Step-by-Step Troubleshooting (Slow Performance)
@@ -85,6 +90,11 @@ Rundll32 printui.dll,PrintUIEntry /il
     - **Optional** Update Adobe / Update 3rd Party Applications
         - Typically from the "Help > " Interfaces will show an option to update.
         - :warning: This can be an issue for MSP facing readers who have clients on hardset / version specific setups. 
+    - **Optional** : Clear Windows Credential Manager
+    - **Optional** : Clear Windows Update Folder (**C:\Windows\SoftwareDistribution\Download**)
+    - **Optional** : Reinstall OneDrive
+    - **Optional** : Uninstall any extra copies of Office 365 or PC Bloatware
+    - **Optional** : Filter System & Application Event Logs to Critical-Warning-Error
 7. Reboot PC
 8. Review Event Viewer
 9. Review Workstation Network Connectivity & Interfaces
