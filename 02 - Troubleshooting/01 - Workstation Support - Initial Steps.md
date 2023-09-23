@@ -112,4 +112,19 @@ net stop w32time && net start w32time && w32tm /resync
     - If No: Confirm access to domain
         - ```Test-ComputerSecureChannel -verbose```
 
+### Sledgehammer Solutions - Least Probable, but Randomly Applicable
+
+1. Register misfit applications based on their .dll location. 
+    - The idea is to 'resync' the Operating System / File Explorer to the Application. 
+    - Think of this like Cache related errors:
+        - If the OS is utilizing the wrong trusted information & applying it 'truthfully' there eventually becomes a battle of attrition between two competing 'truthful' processes. This is the phase where Addins/Applications go non responsive for an extended period of time: Utilizing workstation & network resources: Eventually the application will fail & **sometimes an event is triggered / logged to the System / Application logs**
+        ```cmd
+        regsvr32.exe /s /n /i:user "C:\Users\<UserProfileName>\AppData\Local\Microsoft\TeamsMeetingAddin\<VERSION NUMBER>\x64\Microsoft.Teams.AddinLoader.dll"
+        ```
+        - Swap out \<UserProfileName> & \<VERSION NUMBER>
+            - \<VERSION NUMBER> : Found from **Teams > Ellipses (...) > Settings > (i) About Teams**
+2. Registry Editor 
+    - Review / Google: "[**Application Name**]" & "[**Error Description**]" & "[**Registry Fix**]"
+
+
 ### Outlook / Mobile Device Outlook & Native iOS Mail App Troubleshooting

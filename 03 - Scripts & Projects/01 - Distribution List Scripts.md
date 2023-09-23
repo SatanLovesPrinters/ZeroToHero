@@ -53,6 +53,22 @@ foreach ($Username in $UserList){
 }
 ```
 
+Utilize this to change a wide set of properties or values or group memberships if need be.
+
+#### Get Values of Users in AD / Exchange & Set to New Values from CSV (Work-in-Progress)
+```powershell
+
+$CSV = Import-CSV "C:\temp\list.csv" #CSV should already contain Name or PrimarySMTPAddress in the first column. Additional columns to be Attributes that need to be changed. i.e. Name;JobTitle;Description
+
+foreach ($Username in $CSV){
+   
+   Write-Host("User Details: " + $Username + "," + $JobTitle + "," + $Description) 
+    Get-ADUser -Identity $Username $CSV.
+    Set-ADUser -Identity $Username -Properties 
+
+}
+```
+
 #### Import Distribution List & Export Members w/ Properties
 
 ```powershell
