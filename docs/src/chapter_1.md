@@ -1,5 +1,3 @@
 # Chapter 1
 
-## Some text
-
-More text
+Random Info for Chapter 1

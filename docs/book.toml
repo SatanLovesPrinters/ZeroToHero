@@ -2,5 +2,5 @@
 authors = ["SatanLovesPrinters"]
 language = "en"
 multilingual = false
-src = "docs/src"
-title = "github-pages"
+src = "src"
+title = "GitHub-Wiki"
