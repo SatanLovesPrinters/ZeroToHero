@@ -2,5 +2,5 @@
 authors = ["SatanLovesPrinters"]
 language = "en"
 multilingual = false
-src = "/mdsrc/src"
+src = "src"
 title = "github-pages"
