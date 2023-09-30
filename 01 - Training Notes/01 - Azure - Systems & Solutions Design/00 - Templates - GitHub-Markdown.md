@@ -1,26 +1,20 @@
-# Markdown References
+# Zero to Hero > 01 - Training Notes
+## 01 - Training Notes > 01 - Azure - Systems & Solutions Design
 
-[Learning Markdown](https://www.linkedin.com/learning/learning-markdown/)
-
-[Extended Syntax](https://www.markdownguide.org/extended-syntax/)
-
-[Writing Lists Inside Markdown Tables](https://stackoverflow.com/questions/19950648/how-to-write-lists-inside-a-markdown-table)
-
-[Markdown Flavors](https://gist.github.com/vimtaai/99f8c89e7d3d02a362117284684baa0f)
-
-[Compare Flavors with Babelmark 3](https://babelmark.github.io/)
+| [Learning Markdown](https://www.linkedin.com/learning/learning-markdown/) | [Extended Syntax](https://www.markdownguide.org/extended-syntax/) | [Writing Lists Inside Markdown Tables](https://stackoverflow.com/questions/19950648/how-to-write-lists-inside-a-markdown-table) | [Markdown Flavors](https://gist.github.com/vimtaai/99f8c89e7d3d02a362117284684baa0f) | [Compare Flavors with Babelmark 3](https://babelmark.github.io/) |
+| :----| :------- | :--- | :--- | :--- |
 
 ## LinkedIn Learning Course-1
 ### Topics
 - Markdown Basics
 - Beyond Markdown
-- 7 Table Markdown 
+- Templates
 
-| 1 | 2 | 3  | 4 | 5 | 6 | 7 |
+| i.e. This is a table in markdown! | 2 | 3 | 4 | 5 | 6 | 7 |
 | :----| :------- | :--- | :--- | :--- | :--- | :--- |
 | | | | | | |
 
-### Detailed Information
+### Markdown Basics: Blockquotes, Horizontal Rules, Lists, etc.
 ---
 <details><summary>Markdown Basics</summary>
 

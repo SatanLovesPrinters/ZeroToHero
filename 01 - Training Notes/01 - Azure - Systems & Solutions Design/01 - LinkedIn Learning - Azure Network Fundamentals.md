@@ -1,5 +1,5 @@
-# Zero to Hero > 01 - General IT Review
-## 01 - General IT Review - 02 - LinkedIn Learning 
+# Zero to Hero > 01 - Training Notes
+## 01 - Training Notes > 01 - Azure - Systems & Solutions Design
 
 #### Overview of Networking / Networking Basics
 
