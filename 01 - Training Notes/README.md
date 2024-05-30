@@ -5,9 +5,4 @@
 |:------------------|:----------|:----------|:----------|
 
 
-| GitHub Folder     | Information Type    | References   |
-|:------------------|:----------:|:----------|
-| 00 - GitHub    | Structure, Merging, Projects | Git-SCM & GitHub |
-| 01 - General IT Review   | Help Desk Tiers I-III | MS Learn / LinkedIn
-| 02 - PowerShell Training | Foundations - DevOps  | LinkedIn & MS Pathway Training
-| 03 - Office 365 | Application & Solution Centric  | MS Learn & LinkedIn Training |
+01 - Training Notes

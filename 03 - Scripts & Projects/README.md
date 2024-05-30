@@ -5,9 +5,4 @@
 |:------------------|:----------|:----------|:----------|
 
 
-| GitHub Folder     | Information Type    | References   |
-|:------------------|:----------|:----------|
-| 00 - Wiki Notes      | General Documentation | Structure / Layout of GitHub & Wiki & Pages |
-| 01 - Training Notes      | Help Desk Tiers I-III / Architecture & Solutions / DevOps / Microsoft 365 / PowerShell |
-| 02 - Troubleshooting     | Help Desk & IT Administration / Windows 10 | MS Docs / Office365 |
-| 03 - Scripts & Projects  | Azure Administration / Exchange Online / Server Admin / User Support | MS Docs / Office 365 / Remote Support |
+03 - Scripts & Projects
