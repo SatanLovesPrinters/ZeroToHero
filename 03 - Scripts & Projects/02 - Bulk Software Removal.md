@@ -1,4 +1,4 @@
-### Utilizes RemotePSSession to uninstall software across a wide range of devices.
+### Utilize RemotePSSession to uninstall software across a wide range of devices.
 
 ```powershell
 $computerNames = Get-Content C:\Scripts\serverInput.txt
