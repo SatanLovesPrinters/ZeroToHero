@@ -127,4 +127,8 @@ https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-g
 09/14/2023: 
 - Split hierarchy by appropriate mapping
 - Standardize lists & table formats across structure 
-- 
+
+05/30/2024:
+- Reintroduce GitHub Repository to study PC
+- Develop self study Python pacing for 06/01/2024 - 09/01/2024
+- Complete ISC2 Training for CISSP (60h)
